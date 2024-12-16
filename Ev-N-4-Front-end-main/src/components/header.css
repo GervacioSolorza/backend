@@ -1,0 +1,37 @@
+.custom-navbar {
+  background-color: #0b4b8b!important;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.custom-navbar .navbar-brand {
+  font-size: 1.8rem;
+  font-weight: bold;
+  flex-grow: 1; /* Esto hace que la marca ocupe todo el espacio disponible, empujando todo lo demás a la derecha */
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.custom-navbar .navbar-brand:hover,
+.custom-navbar .navbar-brand:focus {
+  text-decoration: none; /* Asegura que no haya subrayado al pasar el mouse o enfocar */
+  color: #007bff; /* Cambia el color al pasar el mouse si deseas un efecto visual */
+}
+
+.nav-button {
+  color: #ffffff;
+  background-color: #007bff;
+  border-color: #007bff;
+  text-decoration: none; /* Elimina el subrayado */
+  display: inline-block; /* Asegura el comportamiento de bloque en línea */
+  padding: 0.5rem 1rem; /* Añade algo de relleno para hacerlo más visualmente atractivo */
+  border-radius: 0.25rem; /* Bordes redondeados para el botón */
+}
+
+.nav-button:hover, .nav-button:focus {
+  color: #ffffff;
+  background-color: #0056b3;
+  border-color: #004085;
+  text-decoration: none; /* Asegura que no haya subrayado al pasar el mouse o enfocar */
+}

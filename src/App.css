@@ -1,0 +1,106 @@
+/* Estilos Generales */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+header {
+  background-color: #ff5722;
+  color: white;
+  padding: 20px;
+  width: 100%;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.register-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.register-form input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.register-form button {
+  background-color: white;
+  color: #ff5722;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-form button:hover {
+  background-color: #ffccbc;
+}
+
+.menu-section, .cart-section {
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columnas */
+  gap: 20px;
+  justify-items: center; /* Centra los elementos en cada celda */
+}
+
+.menu-item {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: transform 0.3s; /* Transición suave para el efecto de hover */
+}
+
+.menu-item:hover {
+  transform: scale(1.05); /* Aumenta el tamaño al pasar el mouse */
+}
+
+.menu-item h3, .cart-item p {
+  margin: 0;
+}
+
+.menu-item button, .cart-item button {
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.menu-item button:hover, .cart-item button:hover {
+  background-color: #e64a19;
+}
+
+.cart-section {
+  margin-top: 20px;
+}
+
+footer {
+  margin-top: auto;
+  padding: 10px;
+  background-color: #ff5722;
+  color: white;
+  width: 100%;
+}

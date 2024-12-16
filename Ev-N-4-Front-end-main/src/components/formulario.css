@@ -1,0 +1,114 @@
+/* formulario.css */
+
+/* Estilos generales para el formulario */
+.formulario-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #6ad8f3;
+    border-radius: 8px;
+    background-color: #0b4b8b;
+  }
+  
+  /* Estilos para las etiquetas de los campos */
+  .formulario-container label {
+    font-weight: bold;
+    color: #b1bcc7 !important;
+  }
+  
+  /* Estilos para los campos de entrada */
+  .formulario-container input[type="text"],
+  .formulario-container select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #30004d;
+    border-radius: 4px;
+  }
+  
+  /* Estilos para el botón de enviar */
+  .formulario-container button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para el mensaje de error */
+  .formulario-container .invalid-feedback {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  .formulario-container button {
+    background-color: #4c8acc; /* Color de fondo azul (#007bff) */
+    color: #fff; /* Color del texto blanco */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px; /* Añade un poco de espacio interno al botón */
+    font-size: 16px; /* Tamaño de fuente */
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out; /* Transición suave del color de fondo */
+  }
+  
+  /* Cambiar el color de fondo cuando se pasa el cursor sobre el botón */
+  .formulario-container button:hover {
+    background-color: #0056b3; /* Un tono más oscuro de azul (#0056b3) */
+  }
+  
+  /* Cambiar el color de fondo cuando se hace clic en el botón */
+  .formulario-container button:active {
+    background-color: #00397a; /* Un tono más oscuro de azul (#00397a) */
+  }
+
+
+
+/* Estilos específicos para el modal de Bootstrap */
+.modal-content {
+  background-color: #0b4b8b !important; /* Fondo azul oscuro */
+  border-radius: 8px !important;
+  border: 2px solid #6ad8f3 !important;
+  color: #ffffff !important;
+}
+
+.modal-header {
+  border-bottom: 1px solid #6ad8f3 !important;
+  padding: 10px 20px !important;
+}
+
+.modal-title {
+  color: #ffffff !important;
+}
+
+.modal-body {
+  padding: 20px !important;
+}
+
+.modal-footer {
+  padding: 10px 20px !important;
+  justify-content: flex-end !important; /* Alinea los botones hacia la derecha */
+  border-top: 1px solid #6ad8f3 !important;
+}
+
+/* Botón dentro del modal */
+.modal-footer .btn {
+  background-color: #4c8acc !important; /* Azul más suave */
+  color: #ffffff !important;
+  border-radius: 5px !important;
+  padding: 10px 20px !important;
+  font-size: 16px !important;
+  transition: background-color 0.3s ease-in-out !important;
+}
+
+.modal-footer .btn:hover {
+  background-color: #0056b3 !important; /* Azul más oscuro al pasar el mouse */
+}
+
+.modal-footer .btn:active {
+  background-color: #00397a !important; /* Azul más oscuro al hacer clic */
+}

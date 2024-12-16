@@ -1,0 +1,58 @@
+/* Estilos generales */
+.container {
+    padding: 2rem;
+    background-color: #cde6fa; /* Fondo azul claro para el contenedor */
+}
+
+h2 {
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+    color: #204969; /* Azul oscuro para el texto */
+    margin-bottom: 1.5rem;
+}
+
+/* Estilos para las tarjetas */
+.card {
+    background: linear-gradient(145deg, #ffffff, #8fbbe4);
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.card-title {
+    font-size: 1.4rem;
+    color: #007bff; /* Manteniendo el azul brillante para el título */
+    margin-bottom: 0.75rem;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #204969; /* Texto azul oscuro para una mejor lectura */
+    line-height: 1.5; /* Mayor espaciado de línea */
+}
+
+/* Estilos para los botones */
+.delete-button {
+    background-color: #ca1818; /* Azul brillante */
+    border: none;
+    border-radius: 8px;
+    padding: 0.75rem 1.5rem;
+    color: white;
+    font-size: 0.9rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+    background-color: #470000; /* Azul más oscuro al pasar el mouse */
+}
